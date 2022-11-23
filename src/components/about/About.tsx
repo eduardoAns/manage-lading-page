@@ -12,7 +12,7 @@ export const About = () => {
           <AboutSlideShow />
         </div>
         <div className=' gap-4 hidden lg:flex'>
-          <article className=' w-96 h-64 flex flex-col items-center justify-evenly bg-secondary-400 lg:w-[32rem]'>
+          <article className=' w-80 h-64 flex flex-col items-center justify-evenly bg-secondary-400 lg:w-[32rem]'>
             <div className='h-16 mt-[-3.5rem]'>
               <img src='images/avatar-ali.png' className='h-full'/>
             </div>
@@ -23,7 +23,7 @@ export const About = () => {
               more focused.”
             </p>
           </article>
-          <article className='hidden w-96 h-64 lg:flex flex-col items-center justify-evenly bg-secondary-400 lg:w-[32rem]'>
+          <article className='hidden w-80 h-64 lg:flex flex-col items-center justify-evenly bg-secondary-400 lg:w-[32rem]'>
             <div className='h-16 mt-[-3.5rem]'>
               <img src='images/avatar-ali.png' className='h-full'/>
             </div>
@@ -34,7 +34,7 @@ export const About = () => {
               more focused.”
             </p>
           </article>
-          <article className='hidden w-96 h-64 xl:flex flex-col items-center justify-evenly bg-secondary-400 lg:w-[32rem]'>
+          <article className='hidden w-80 h-64 xl:flex flex-col items-center justify-evenly bg-secondary-400 lg:w-[32rem]'>
             <div className='h-16 mt-[-3.5rem]'>
               <img src='images/avatar-ali.png' className='h-full'/>
             </div>
