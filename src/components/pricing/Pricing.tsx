@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Pricing = () => {
   return (
-    <section id='pricing' className="h-screen w-full bg-pricing lg:h-screen-3/4 lg:px-32 xl:px-44 " >
+    <section id='pricing' className="h-screen w-full bg-pricing lg:px-32 xl:px-44 " >
       <div className='h-full w-full flex flex-col items-center gap-4 lg:flex-row-reverse  lg:justify-between'>
         <article className=' h-[25rem]  lg:w-auto  lg:h-[30rem]'>
           <img src='images/illustration-intro.svg' className='h-full'/>
