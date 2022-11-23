@@ -3,7 +3,7 @@ import React from 'react'
 export const Product = () => {
   return (
     <section id='product' className=" h-screen-5/4 w-full md:h-screen-3/4 md:px-20 lg:px-32 xl:px-44">
-      <div className=' h-full w-full flex flex-col items-center gap-12  lg:flex-row  lg:items-start'>
+      <div className=' h-full w-full flex flex-col justify-center items-center gap-12  lg:flex-row  lg:items-start'>
         <article className='w-full flex flex-col  gap-4 px-12 lg:px-0'>
             <h1 className=' font-bold text-primary-200 text-3xl text-center lg:text-4xl xl:text-5xl lg:text-left'>
               What’s different about Manage?
