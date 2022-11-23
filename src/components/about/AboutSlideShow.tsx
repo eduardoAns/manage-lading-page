@@ -2,7 +2,6 @@ import React, { FC } from 'react'
 import { Slide } from 'react-slideshow-image';
 
 import 'react-slideshow-image/dist/styles.css';
-import styles from './AboutSlideshow.module.css';
 
 export const AboutSlideShow:FC = () => {
   return (
@@ -12,7 +11,7 @@ export const AboutSlideShow:FC = () => {
         indicators
         
     >
-        <div className={ styles['each-slide'] }>
+        <div >
             <div className='w-96 pt-36'>
                 <article className=' w-96 h-64 flex flex-col items-center justify-evenly bg-secondary-400 lg:w-[32rem]'>
                     <div className='h-16 mt-[-3.5rem]'>
@@ -27,7 +26,7 @@ export const AboutSlideShow:FC = () => {
                 </article>
             </div>
         </div>
-        <div className={ styles['each-slide'] }>
+        <div >
             <div className='w-96 pt-36'>
                 <article className=' w-96 h-64 flex flex-col items-center justify-evenly bg-secondary-400 lg:w-[32rem]'>
                     <div className='h-16 mt-[-3.5rem]'>
@@ -42,7 +41,7 @@ export const AboutSlideShow:FC = () => {
                 </article>
             </div>
         </div>
-        <div className={ styles['each-slide'] }>
+        <div>
             <div className='w-96 pt-36'>
                 <article className=' w-96 h-64 flex flex-col items-center justify-evenly bg-secondary-400 lg:w-[32rem]'>
                     <div className='h-16 mt-[-3.5rem]'>
