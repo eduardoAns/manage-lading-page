@@ -17,7 +17,7 @@ export const Product = () => {
         <article className='w-full pl-4 flex flex-col gap-8 '>
           <div className='flex flex-col gap-2'>
             <div 
-              className="w-full flex flex-row rounded-l-2xl bg-[url('images/bg-tablet-pattern.svg')] bg-no-repeat bg-[length:1000px_1000px] lg:bg-none"
+              className="w-full flex flex-row rounded-l-2xl bg-[url('../bg-tablet-pattern.svg')] bg-no-repeat bg-[length:1000px_1000px] lg:bg-none"
               style={{backgroundPositionY:'-40rem'}}
             >
               <p className='w-16 h-9 pt-2 rounded-3xl bg-primary-100 text-center text-secondary-400 font-bold text-sm'>
@@ -35,7 +35,7 @@ export const Product = () => {
           </div>
           <div className='flex flex-col gap-2'>
               <div 
-                className="w-full flex flex-row rounded-l-2xl bg-[url('images/bg-tablet-pattern.svg')] bg-no-repeat bg-[length:1000px_1000px] lg:bg-none"
+                className="w-full flex flex-row rounded-l-2xl bg-[url('../bg-tablet-pattern.svg')] bg-no-repeat bg-[length:1000px_1000px] lg:bg-none"
                 style={{backgroundPositionY:'-40rem'}}
               >
                 <p className='w-16 h-9 pt-2 rounded-3xl bg-primary-100 text-center text-secondary-400 font-bold text-sm'>02</p>
@@ -51,7 +51,7 @@ export const Product = () => {
           </div>
           <div className='flex flex-col gap-2'>
             <div 
-              className="w-full flex flex-row rounded-l-2xl bg-[url('images/bg-tablet-pattern.svg')] bg-no-repeat bg-[length:1000px_1000px] lg:bg-none"
+              className="w-full flex flex-row rounded-l-2xl bg-[url('../bg-tablet-pattern.svg')] bg-no-repeat bg-[length:1000px_1000px] lg:bg-none"
               style={{backgroundPositionY:'-40rem'}}
             >
               <p className='w-16 h-9 pt-2 rounded-3xl bg-primary-100 text-center text-secondary-400 font-bold text-sm'>03</p>

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .bg-header {
-    background-image:url('images/bg-tablet-pattern.svg') ;
+    background-image:url('../bg-tablet-pattern.svg') ;
     background-size: 450px 450px;
     background-repeat: no-repeat;
     background-position-x: 9rem;
@@ -11,7 +11,7 @@
 }
 
 .bg-pricing {
-    background-image:url('images/bg-tablet-pattern.svg') ;
+    background-image:url('../bg-tablet-pattern.svg') ;
     background-size: 330px 330px;
     background-repeat: no-repeat;
     background-position-x: 19rem;
@@ -51,7 +51,7 @@
     }
 
     .bg-main {
-        background-image:url('images/bg-tablet-pattern.svg') ;
+        background-image:url('../bg-tablet-pattern.svg') ;
         background-size: 700px 700px;
         background-repeat: no-repeat;
         background-position-x: -20rem;
